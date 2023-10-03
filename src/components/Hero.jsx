@@ -1,4 +1,4 @@
-feat: (component): Appimport { styles } from '../styles';
+import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 
 function Hero() {
