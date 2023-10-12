@@ -78,7 +78,6 @@ function Contact() {
           <label htmlFor="name" className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
-              id="name"
               type="text"
               name="name"
               value={form.name}
@@ -91,7 +90,6 @@ function Contact() {
           <label htmlFor="email" className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Email</span>
             <input
-              id="email"
               type="email"
               name="email"
               value={form.email}
@@ -104,7 +102,6 @@ function Contact() {
           <label htmlFor="message" className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
-              id="message"
               rows={7}
               name="message"
               value={form.message}
