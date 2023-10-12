@@ -22,12 +22,12 @@ import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 
 import futtec from './company/futtec.svg';
-import threads from './company/threads.svg';
 import twitter from './company/twitter.webp';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import reactQuiz from './reactQuiz.png';
+import carShowcase from './carShowcase.png';
+import threads from './threads.png';
+import danD from './danD.png';
 
 export {
   logo,
@@ -52,7 +52,7 @@ export {
   threads,
   twitter,
   futtec,
-  carrent,
-  jobit,
-  tripguide,
+  reactQuiz,
+  carShowcase,
+  danD,
 };

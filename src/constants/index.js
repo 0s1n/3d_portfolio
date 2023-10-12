@@ -16,10 +16,10 @@ import {
   futtec,
   twitter,
   threads,
-  carrent,
-  jobit,
-  tripguide,
+  carShowcase,
   threejs,
+  reactQuiz,
+  danD,
 } from '../assets';
 
 export const navLinks = [
@@ -163,14 +163,32 @@ const projects = [
     id: 1,
     name: 'React Quiz with Firebase',
     description:
-      'Web-based platform that allows users to play a quiz game saving score .',
+      'Web-based platform that allows users to play a quiz game saving score.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'firebase',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: reactQuiz,
+    source_code_link: 'https://github.com/0s1n/react-quiz-with-firebase',
+  },
+  {
+    id: 2,
+    name: 'Car Showcase',
+    description:
+      'Web application that enables users to Find, book or rent a car — quickly and easily',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'rapidApi',
         color: 'green-text-gradient',
       },
       {
@@ -178,52 +196,83 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    id: 2,
-    name: 'Job IT',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: carShowcase,
+    source_code_link: 'https://github.com/0s1n/car_showcase',
   },
   {
     id: 3,
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+    name: 'Threads Clone',
+    description: 'A clone of Threads plathform.',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'mongoDB',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'clerk',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'uploadthing',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'zod',
+        color: 'green-text-gradient',
+      },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: threads,
+    source_code_link: 'https://github.com/0s1n/threads',
+  },
+  {
+    id: 4,
+    name: 'Dan D. Repairs',
+    description:
+      'A fullstack MERN web platform that is used for internal use by the company to organize and control the repairs that are carried out.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongoDB',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'express',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'node',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'jwt',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'redux',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'cors',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'bcrypt',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: danD,
+    source_code_link: 'https://github.com/0s1n/mernStack',
   },
 ];
 
