@@ -533,10 +533,10 @@
   resolved "https://registry.yarnpkg.com/@react-spring/types/-/types-9.6.1.tgz#913d3a68c5cbc1124fdb18eff919432f7b6abdde"
   integrity sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==
 
-"@react-three/drei@^9.108.4":
-  version "9.108.4"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.108.4.tgz#d3eb3cedc35df8523b99467a84af52250b724960"
-  integrity sha512-YyPVG7+np6G8CJRVVdEfgK+bou7cvp8v9R7k4NSHsoi5EokFPG03tkCjniRiz5SzQyN+E8kCiMogI9oZaop5+g==
+"@react-three/drei@^9.109.1":
+  version "9.109.1"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.109.1.tgz#8f82d5f6d41de918580d3fc8b0e18deee3c17fe5"
+  integrity sha512-tkZW1lpkGW0jg4bb3yiaQgM9gkpf6b2osleQnQu55VC8UFDDMIX+fNB8TTQ9fqhA/lpQ7UszM7XSUGak1xYjvg==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@mediapipe/tasks-vision" "0.10.8"
@@ -1859,10 +1859,10 @@ fraction.js@^4.3.7:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.7.tgz#06ca0085157e42fda7f9e726e79fefc4068840f7"
   integrity sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==
 
-framer-motion@^11.3.8:
-  version "11.3.8"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.3.8.tgz#682df8cbac6a9667b48af427e5a8bdaea7203713"
-  integrity sha512-1D+RDTsIp4Rz2dq/oToqSEc9idEQwgBRQyBq4rGpFba+0Z+GCbj9z1s0+ikFbanWe3YJ0SqkNlDe08GcpFGj5A==
+framer-motion@^11.3.9:
+  version "11.3.9"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.3.9.tgz#79323d5fb186a8ac1b0dc37ff46272fede88d858"
+  integrity sha512-6oW/GDxuLBZqWJJeC8+zkEQeYDe6BYXPaNDUiJNCbzj4KDfVpcScWpM+6A7YoQGCfbtL7Q3ZqAZDYXPUF5r54w==
   dependencies:
     tslib "^2.4.0"
 
