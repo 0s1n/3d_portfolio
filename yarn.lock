@@ -833,10 +833,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^18.3.10":
-  version "18.3.10"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.10.tgz#6edc26dc22ff8c9c226d3c7bf8357b013c842219"
-  integrity sha512-02sAAlBnP39JgXwkAq3PeU9DVaaGpZyF3MGcC0MKgQVkZor5IiiDAipVaxQHtDJAmO4GIy/rVBy/LzVj76Cyqg==
+"@types/react@*", "@types/react@^18.3.11":
+  version "18.3.11"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.11.tgz#9d530601ff843ee0d7030d4227ea4360236bd537"
+  integrity sha512-r6QZ069rFTjrEYgFdOck1gK7FLVsgJE7tTz0pQBczlBNUhBNk0MQH4UbnFSwjpQLMkLzgqvBBa+qGpLje16eTQ==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -1733,10 +1733,10 @@ eslint-plugin-react-refresh@^0.4.12:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-refresh/-/eslint-plugin-react-refresh-0.4.12.tgz#73d61c7fcbe3f7280edb6579380b4350d2f547ed"
   integrity sha512-9neVjoGv20FwYtCP6CB1dzR1vr57ZDNOXst21wd2xJ/cTlM2xLq0GWVlSNTdMn/4BtP6cHYBMCSp1wFBJ9jBsg==
 
-eslint-plugin-react@^7.37.0:
-  version "7.37.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.37.0.tgz#c21f64a32fc34df1eaeca571ec8f70bdc40dd20a"
-  integrity sha512-IHBePmfWH5lKhJnJ7WB1V+v/GolbB0rjS8XYVCSQCZKaQCAUhMoVoOEn1Ef8Z8Wf0a7l8KTJvuZg5/e4qrZ6nA==
+eslint-plugin-react@^7.37.1:
+  version "7.37.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.37.1.tgz#56493d7d69174d0d828bc83afeffe96903fdadbd"
+  integrity sha512-xwTnwDqzbDRA8uJ7BMxPs/EXRB3i8ZfnOIp8BsxEQkT0nHPp+WWceqGgo6rKb9ctNi8GJLDT4Go5HAWELa/WMg==
   dependencies:
     array-includes "^3.1.8"
     array.prototype.findlast "^1.2.5"
