@@ -639,10 +639,10 @@
     uuid "^9.0.1"
     zustand "^3.7.1"
 
-"@react-three/fiber@^8.17.9":
-  version "8.17.9"
-  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.17.9.tgz#0d8e3b92b3ff4b715c4c3d5185fa5bde6d89480e"
-  integrity sha512-uZclikSqDdI15D0t8l8F8fyRyzl6BYwUOlEke2BIjAsjVzQy5MQPROVEc/9/Ef/PAezfl6lrLulMlYwgS1JGIg==
+"@react-three/fiber@^8.17.10":
+  version "8.17.10"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.17.10.tgz#e007efaf27303592b082022d865c29ee77425629"
+  integrity sha512-S6bqa4DqUooEkInYv/W+Jklv2zjSYCXAhm6qKpAQyOXhTEt5gBXnA7W6aoJ0bjmp9pAeaSj/AZUoz1HCSof/uA==
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@types/debounce" "^1.2.1"
@@ -1971,10 +1971,10 @@ fraction.js@^4.3.7:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.7.tgz#06ca0085157e42fda7f9e726e79fefc4068840f7"
   integrity sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==
 
-framer-motion@^11.11.1:
-  version "11.11.1"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.11.1.tgz#84c4bf333b445ef8abc59a5567a197b8bc0cd6cb"
-  integrity sha512-Ucr9eHSrk0d+l6vyl9fvq6omh/PAWHjS+PlczpsoUdhJo1TuF3ULWJNuAMnpWQ1dGyPOyoUVuYlUKjE/s8dyCA==
+framer-motion@^11.11.4:
+  version "11.11.4"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.11.4.tgz#8228333e657b9ab51678e760839f70796c40f2a7"
+  integrity sha512-54UE9loF2ZBgyjdMmxzp9kxm0gvYjFfpd7GiThdCCp5+J0P4Oa7pM0yusd9Y3rm/EUAdD+FfgqRXfbK7k3RFiA==
   dependencies:
     tslib "^2.4.0"
 
