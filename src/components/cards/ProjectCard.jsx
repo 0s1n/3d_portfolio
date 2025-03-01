@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'motion/react';
 import { Tilt } from 'react-tilt';
 import { fadeIn } from '../../utils/motion';
 import { github } from '../../assets';
@@ -12,7 +12,7 @@ export function ProjectCard({
   sourceCodeLink,
 }) {
   return (
-    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
+    <Motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -60,7 +60,7 @@ export function ProjectCard({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </Motion.div>
   );
 }
 

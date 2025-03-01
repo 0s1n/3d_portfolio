@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'motion/react';
 import { fadeIn } from '../../utils/motion';
 
 function FeedbackCard({
@@ -10,7 +10,7 @@ function FeedbackCard({
   image,
 }) {
   return (
-    <motion.div
+    <Motion.div
       variants={fadeIn('', 'spring', index * 0.5, 0.75)}
       className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
     >
@@ -36,7 +36,7 @@ function FeedbackCard({
           />
         </div>
       </div>
-    </motion.div>
+    </Motion.div>
   );
 }
 export default FeedbackCard;

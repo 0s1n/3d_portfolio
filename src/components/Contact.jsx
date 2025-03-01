@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'motion/react';
 import emailjs from '@emailjs/browser';
 import SectionWrapper from '../hoc';
 import { slideIn } from '../utils/motion';
@@ -53,7 +53,7 @@ function Contact() {
         (error) => {
           setLoading(false);
 
-          // eslint-disable-next-line no-console
+           
           console.error('error', error);
 
           setSended('Something went wrong');
@@ -63,7 +63,7 @@ function Contact() {
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
-      <motion.div
+      <Motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
@@ -119,14 +119,14 @@ function Contact() {
           </button>
         </form>
         {sended && <p>{sended}</p>}
-      </motion.div>
+      </Motion.div>
 
-      <motion.div
+      <Motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[320px]"
       >
         <EarthCanvas />
-      </motion.div>
+      </Motion.div>
     </div>
   );
 }

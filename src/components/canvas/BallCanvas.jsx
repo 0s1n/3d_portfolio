@@ -2,49 +2,55 @@ import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import {
   Decal,
-  Float,
+  Sphere,
   OrbitControls,
   Preload,
   useTexture,
+  Text,
 } from '@react-three/drei';
 
 import CanvasLoader from '../Loader';
 
 function Ball({ imgUrl }) {
-  const [decal] = useTexture([imgUrl]);
+  const decal = useTexture(imgUrl);
 
   return (
-    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={0.5} />
-      <directionalLight position={[0, 0, 0.05]} />
-      <mesh visible position={[0, 0, 0]} rotation={[2 * Math.PI, 0, 6.25]}>
-        <sphereGeometry args={[2.5, 32, 32]} />
-        <meshStandardMaterial
+    <>
+      <ambientLight intensity={1} />
+      <directionalLight position={[0, 0, 0]} />
+      <Sphere scale={12}>
+        <meshBasicMaterial
           color="#fff8eb"
-          polygonOffset
-          polygonOffsetFactor={-5}
-          flatShading
           transparent
+          opacity={0.5}
         />
         <Decal
-          position={[0.2, 0, 2]}
-          rotation={[2 * Math.PI, 0, 6.25]}
+          position={[0, 0, 1]}
+          rotation={[0, 0, 0]}
+          scale={1}
           map={decal}
-          scale={3}
         />
-      </mesh>
-    </Float>
+      </Sphere >
+    </>
   );
 }
 
-function BallCanvas({ icon }) {
+function BallCanvas({ icon, name }) {
+  console.log({ icon, name });
+
   return (
-    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
+    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }} id={name} camera={{ position: [0 * Math.PI, 0, 30] }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
+        <Text
+          fontSize={5}
+          position={[0, 15, 0]}
+          rotation={[0, 0, 0]}
+        >
+          {name}
+        </Text>
       </Suspense>
-
       <Preload all />
     </Canvas>
   );
