@@ -1,4 +1,13 @@
-import { Hero, Navbar, Tech } from './components'
+import {
+  Hero,
+  Navbar,
+  Tech,
+  About,
+  Experience,
+  Works,
+  Feedbacks,
+  Contact,
+} from './components'
 
 function App() {
   return (
@@ -7,7 +16,16 @@ function App() {
         <Navbar />
         <Hero />
       </div>
+
+      <About />
+      <Experience />
       <Tech />
+      <Works />
+      <Feedbacks />
+
+      <div className='relative z-0'>
+        <Contact />
+      </div>
     </main>
   )
 }
