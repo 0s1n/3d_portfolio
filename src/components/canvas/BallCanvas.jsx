@@ -18,7 +18,7 @@ function Ball({ imgUrl }) {
     <>
       <ambientLight intensity={1} />
       <directionalLight position={[0, 0, 0]} />
-      <Sphere scale={12}>
+      <Sphere scale={15}>
         <meshBasicMaterial
           color="#fff8eb"
           transparent
@@ -39,13 +39,13 @@ function BallCanvas({ icon, name }) {
   console.log({ icon, name });
 
   return (
-    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }} id={name} camera={{ position: [0 * Math.PI, 0, 30] }}>
+    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }} id={name} camera={{ position: [0, 0, 30] }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
         <Text
           fontSize={5}
-          position={[0, 15, 0]}
+          position={[0, 20, 0]}
           rotation={[0, 0, 0]}
         >
           {name}
