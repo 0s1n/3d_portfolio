@@ -36,7 +36,6 @@ function Ball({ imgUrl }) {
 }
 
 function BallCanvas({ icon, name }) {
-  console.log({ icon, name });
 
   return (
     <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }} id={name} camera={{ position: [0, 0, 30] }}>
