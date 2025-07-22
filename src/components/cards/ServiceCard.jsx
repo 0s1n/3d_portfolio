@@ -1,11 +1,11 @@
 import { Tilt } from 'react-tilt';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'motion/react';
 import { fadeIn } from '../../utils/motion';
 
 function ServiceCard({ index, title, icon }) {
   return (
     <Tilt className="xs:w-[250px] w-full">
-      <motion.div
+      <Motion.div
         variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
@@ -18,7 +18,7 @@ function ServiceCard({ index, title, icon }) {
             {title}
           </h3>
         </div>
-      </motion.div>
+      </Motion.div>
     </Tilt>
   );
 }

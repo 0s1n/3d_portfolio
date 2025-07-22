@@ -1,4 +1,4 @@
-/* eslint-disable no-nested-ternary */
+ 
 export const textVariant = (delay) => {
   return {
     hidden: {

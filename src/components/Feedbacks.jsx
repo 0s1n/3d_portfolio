@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'motion/react';
 
 import SectionWrapper from '../hoc';
 import { styles } from '../styles';
@@ -12,10 +12,10 @@ function Feedbacks() {
       <div
         className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
       >
-        <motion.div variants={textVariant()}>
+        <Motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>
           <h2 className={styles.sectionHeadText}>Testimonials.</h2>
-        </motion.div>
+        </Motion.div>
       </div>
 
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>

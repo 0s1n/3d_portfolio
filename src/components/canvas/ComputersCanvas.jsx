@@ -1,4 +1,3 @@
-/* eslint-disable react/function-component-definition */
 import { Suspense, useEffect, useState } from 'react';
 import { Canvas, useThree } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';

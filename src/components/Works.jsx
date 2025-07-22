@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'motion/react';
 import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
 import { projects } from '../constants';
@@ -8,13 +8,13 @@ import SectionWrapper from '../hoc';
 function Works() {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <Motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}`}>My Work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </motion.div>
+      </Motion.div>
 
       <div className="w-full flex">
-        <motion.p
+        <Motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
@@ -23,7 +23,7 @@ function Works() {
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage proyects effectively.
-        </motion.p>
+        </Motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">

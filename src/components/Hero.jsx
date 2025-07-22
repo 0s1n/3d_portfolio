@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'motion/react';
 import { styles } from '../styles';
 import ComputersCanvas from './canvas/ComputersCanvas';
 
@@ -29,7 +29,7 @@ function Hero() {
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about" aria-label="About">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.div
+            <Motion.div
               animate={{ y: [0, 24, 0] }}
               transition={{
                 duration: 1.5,

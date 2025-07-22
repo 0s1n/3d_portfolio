@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'motion/react';
 import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
 import { services } from '../constants';
@@ -8,12 +8,12 @@ import SectionWrapper from '../hoc';
 function About() {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <Motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
-      </motion.div>
+      </Motion.div>
 
-      <motion.p
+      <Motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
@@ -22,7 +22,7 @@ function About() {
         Node.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+      </Motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
