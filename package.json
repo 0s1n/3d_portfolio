@@ -14,7 +14,7 @@
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
     "@tailwindcss/postcss": "^4.1.18",
-    "motion": "^12.33.0",
+    "motion": "^12.34.0",
     "postcss": "^8.5.3",
     "prop-types": "^15.8.1",
     "react": "^19.2.4",
