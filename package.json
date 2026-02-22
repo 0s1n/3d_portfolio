@@ -13,8 +13,8 @@
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^10.7.7",
     "@react-three/fiber": "^9.5.0",
-    "@tailwindcss/postcss": "^4.1.18",
-    "motion": "^12.33.0",
+    "@tailwindcss/postcss": "^4.2.0",
+    "motion": "^12.34.2",
     "postcss": "^8.5.3",
     "prop-types": "^15.8.1",
     "react": "^19.2.4",
@@ -22,7 +22,7 @@
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^4.0.0",
     "tailwindcss": "^4.0.9",
-    "three": "^0.182.0"
+    "three": "^0.183.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
